@@ -20,12 +20,12 @@
 
 &lt;p&gt;Делается это примитивно донельзя:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;//img.youtube.com/vi/VIDEO_ID/0.jpg
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;http://img.youtube.com/vi/VIDEO_ID/0.jpg
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Вместо VIDEO_ID нужно подставить хэш видео.&lt;br /&gt;
 Получается как-то так:&lt;br /&gt;
-&lt;a href=&#34;http://www.youtube.com/watch?v=uzpUaUIrabc&#34;&gt;&lt;img src=&#34;http://img.youtube.com/vi/uzpUaUIrabc/0.jpg&#34; alt=&#34;Просто пример картинки видео Youtube&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://www.youtube.com/watch?v=uzpUaUIrabc&#34;&gt;&lt;img src=&#34;//img.youtube.com/vi/uzpUaUIrabc/0.jpg&#34; alt=&#34;Просто пример картинки видео Youtube&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Там еще есть мелкие картинки, просто с другими номерами - это кадры по ходу видео:
 
