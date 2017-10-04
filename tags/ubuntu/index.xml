@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on nERPa blog</title>
+    <link>https://nerpa.github.io/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on nERPa blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Tue, 03 Oct 2017 22:27:53 +0300</lastBuildDate>
+    
+	<atom:link href="https://nerpa.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Переустановка Hugo</title>
+      <link>https://nerpa.github.io/hugo-reinstall/</link>
+      <pubDate>Tue, 03 Oct 2017 22:27:53 +0300</pubDate>
+      
+      <guid>https://nerpa.github.io/hugo-reinstall/</guid>
+      <description>&lt;p&gt;В кои-то веки решил написать чего-то в блог. Бац - а ни черта не работает! Почесал затылок, и вспомнил, что я же купил новый SSD и переустановил Бунту. И поскольку тогда хватало других заморочек, про Hugo я благополучно забыл.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

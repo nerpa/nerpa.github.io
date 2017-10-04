@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nerpa.github.io/</loc>
-    <lastmod>2017-04-05T21:27:53+03:00</lastmod>
+    <loc>https://nerpa.github.io/hugo-reinstall/</loc>
+    <lastmod>2017-10-03T22:27:53+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/docker-python-shell/</loc>
+    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
   </url>
   
   <url>
@@ -34,6 +40,60 @@
   <url>
     <loc>https://nerpa.github.io/about/</loc>
     <lastmod>2016-11-13T14:27:53+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/docker/</loc>
+    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/flask/</loc>
+    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/hugo/</loc>
+    <lastmod>2017-10-03T22:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/python/</loc>
+    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/</loc>
+    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/ubuntu/</loc>
+    <lastmod>2017-10-03T22:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/youtube/</loc>
+    <lastmod>2016-11-17T21:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/</loc>
+    <lastmod>2017-10-03T22:27:53+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nerpa.github.io/tags/%D0%B1%D0%B8%D1%80%D0%B6%D0%B0/</loc>
+    <lastmod>2017-04-05T21:27:53+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

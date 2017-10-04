@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 <meta name="pinterest" content="nopin">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.29" />
 
 
 
@@ -13,8 +13,8 @@
 
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="none" onload="if(media!='all')media='all'">
-    <link href="https://nerpa.github.io/css/styles.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://nerpa.github.io/css/styles.css" rel="stylesheet">
 
     <title>Пару слов о себе - nERPa blog</title>
     
@@ -40,12 +40,12 @@
     "@type": "Article",
     "mainEntityOfPage":{
       "@type":"WebPage",
-      "@id":"https:\/\/nerpa.github.io\/"
+      "@id":"https://nerpa.github.io/"
     },
     "headline": "Пару слов о себе - nERPa blog",
     "image": {
       "@type": "ImageObject",
-      "url": "https:\/\/nerpa.github.io\/images\/default.png",
+      "url": "https://nerpa.github.io/images/default.png",
       "height": 700,
       "width": 700
     },
@@ -54,19 +54,22 @@
     "author": {
       "@type": "Person",
       "name": "nERPa blog",
-      "image": "https:\/\/nerpa.github.io\/images/logo.png"
+      "image": "https://nerpa.github.io/images/logo.png"
     },
     "publisher": {
       "@type": "Organization",
       "name": "nERPa blog",
       "logo": {
         "@type": "ImageObject",
-        "url": "https:\/\/nerpa.github.io\/images/logo.png",
+        "url": "https://nerpa.github.io/images/logo.png",
         "height": 60,
         "width": 60
       }
     },
-    "description": "tldr\nВ детстве увлекся точными науками. Небезуспешно участвовал в множестве школьных олимпиад вплоть до Всесоюзных. Закончил МФТИ. Работал в нескольких НИИ. В 90-е годы с наукой завязал в пользу программирования. Параллельно пробовал себя в бизнесе, где и провел следующие 20 лет, в основном на (топ-)менеджерских позициях.\nСейчас на перепутье - размышляю, куда идти дальше.\nНо детская мечта напоминает о себе до сих пор! На науку времени и сил уже нет, программирую для удовольствия потихоньку. О том и блог.  "
+    "description": "tldr
+В детстве увлекся точными науками. Небезуспешно участвовал в множестве школьных олимпиад вплоть до Всесоюзных. Закончил МФТИ. Работал в нескольких НИИ. В 90-е годы с наукой завязал в пользу программирования. Параллельно пробовал себя в бизнесе, где и провел следующие 20 лет, в основном на (топ-)менеджерских позициях.
+Сейчас на перепутье - размышляю, куда идти дальше.
+Но детская мечта напоминает о себе до сих пор! На науку времени и сил уже нет, программирую для удовольствия потихоньку. О том и блог.  "
   }
 </script>
 
@@ -191,20 +194,25 @@
 
 
     <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'nerpa';
-    var disqus_identifier = 'https:\/\/nerpa.github.io\/about\/';
-    var disqus_title = 'Пару слов о себе';
-    var disqus_url = 'https:\/\/nerpa.github.io\/about\/';
-
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "nerpa" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
   <div class="col-md-4">
@@ -216,6 +224,10 @@
       <div class="panel-title">Последние записи</div>
     </div>
     <div class="list-group">
+      
+      <a href="https://nerpa.github.io/hugo-reinstall/" class="list-group-item">Переустановка Hugo</a>
+      
+      <a href="https://nerpa.github.io/docker-python-shell/" class="list-group-item">Docker и python shell</a>
       
       <a href="https://nerpa.github.io/exchange-greed/" class="list-group-item">Биржевая жадность</a>
       
@@ -229,6 +241,10 @@
       
       <a href="https://nerpa.github.io/about/" class="list-group-item">Пару слов о себе</a>
       
+      <a href="https://nerpa.github.io/tags/docker/" class="list-group-item">Docker</a>
+      
+      <a href="https://nerpa.github.io/tags/flask/" class="list-group-item">Flask</a>
+      
     </div>
   </section>
 
@@ -240,6 +256,16 @@
     <div class="list-group">
       
       <a href="https://nerpa.github.io/tags/%D0%B1%D0%B8%D1%80%D0%B6%D0%B0" class="list-group-item">биржа</a>
+      
+      <a href="https://nerpa.github.io/tags/docker" class="list-group-item">docker</a>
+      
+      <a href="https://nerpa.github.io/tags/flask" class="list-group-item">flask</a>
+      
+      <a href="https://nerpa.github.io/tags/hugo" class="list-group-item">hugo</a>
+      
+      <a href="https://nerpa.github.io/tags/python" class="list-group-item">python</a>
+      
+      <a href="https://nerpa.github.io/tags/ubuntu" class="list-group-item">ubuntu</a>
       
       <a href="https://nerpa.github.io/tags/youtube" class="list-group-item">youtube</a>
       

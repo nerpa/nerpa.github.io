@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nERPa blog</title>
-    <link>https://nerpa.github.io/tags/youtube/index.xml</link>
-    <description>Recent content on nERPa blog</description>
+    <title>Youtube on nERPa blog</title>
+    <link>https://nerpa.github.io/tags/youtube/</link>
+    <description>Recent content in Youtube on nERPa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <atom:link href="https://nerpa.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Nov 2016 21:27:53 +0300</lastBuildDate>
+    
+	<atom:link href="https://nerpa.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Как сделать скриншоты на видео Youtube</title>
@@ -16,50 +19,7 @@
       <guid>https://nerpa.github.io/youtube-trick/</guid>
       <description>&lt;p&gt;В процессе ковыряния с блогом обнаружил интересную (недокументированную) фичу Youtube: оказывается, можно подгрузить картинки готовых скриншотов с их сервера. Ясен пень, что открытие невелико 8-) но как-то я раньше не задумывался, и вваливал ссылку на видео прямо в текст. Ну и понятно - грузится это все очень и очень долго&amp;hellip;&lt;br /&gt;
 Картиночки-то - побыстрее будут! Да и мало ли где готовые миниатюры с видео пригодятся.
-&lt;/p&gt;
-
-&lt;p&gt;Делается это примитивно донельзя:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;http://img.youtube.com/vi/VIDEO_ID/0.jpg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Вместо VIDEO_ID нужно подставить хэш видео.&lt;br /&gt;
-Получается как-то так:&lt;br /&gt;
-&lt;a href=&#34;http://www.youtube.com/watch?v=uzpUaUIrabc&#34;&gt;&lt;img src=&#34;//img.youtube.com/vi/uzpUaUIrabc/0.jpg&#34; alt=&#34;Просто пример картинки видео Youtube&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Там еще есть мелкие картинки, просто с другими номерами - это кадры по ходу видео:
-
-&lt;figure class=&#34;img-responsive left&#34;&gt;
-    
-        &lt;img src=&#34;//img.youtube.com/vi/uzpUaUIrabc/2.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure class=&#34;img-responsive left&#34;&gt;
-    
-        &lt;img src=&#34;//img.youtube.com/vi/uzpUaUIrabc/1.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;figure class=&#34;img-responsive&#34;&gt;
-    
-        &lt;img src=&#34;//img.youtube.com/vi/uzpUaUIrabc/3.jpg&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-&lt;div class=&#34;clearfix&#34;&gt;&lt;/div&gt;
-
-С другой стороны, если ставить картинку и линк, то посетитель будет залипать не на твоем сервере, а на самом Youtube - минус тебе 8-) Короче, кому чего важнее, скорость загрузки против поведенческих факторов.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/uzpUaUIrabc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
   </channel>
