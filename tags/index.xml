@@ -6,7 +6,7 @@
     <description>Recent content in Tags on nERPa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Tue, 03 Oct 2017 21:27:53 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2017 17:47:53 +0300</lastBuildDate>
     
 	<atom:link href="https://nerpa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Docker</title>
       <link>https://nerpa.github.io/tags/docker/</link>
-      <pubDate>Tue, 03 Oct 2017 21:27:53 +0300</pubDate>
+      <pubDate>Mon, 09 Oct 2017 17:47:53 +0300</pubDate>
       
       <guid>https://nerpa.github.io/tags/docker/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>Python</title>
       <link>https://nerpa.github.io/tags/python/</link>
-      <pubDate>Tue, 03 Oct 2017 21:27:53 +0300</pubDate>
+      <pubDate>Mon, 09 Oct 2017 17:47:53 +0300</pubDate>
       
       <guid>https://nerpa.github.io/tags/python/</guid>
       <description></description>

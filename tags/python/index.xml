@@ -6,10 +6,21 @@
     <description>Recent content in Python on nERPa blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Tue, 03 Oct 2017 21:27:53 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2017 17:47:53 +0300</lastBuildDate>
     
 	<atom:link href="https://nerpa.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Пустой процесс в docker-контейнере</title>
+      <link>https://nerpa.github.io/docker-for-the-shell/</link>
+      <pubDate>Mon, 09 Oct 2017 17:47:53 +0300</pubDate>
+      
+      <guid>https://nerpa.github.io/docker-for-the-shell/</guid>
+      <description>&lt;p&gt;В &lt;a href=&#34;https://nerpa.github.io/docker-python-shell/&#34;&gt;прошлый раз&lt;/a&gt; мне была нужна среда с определенной версией python, которую я не хотел ставить на комп даже с virtualenv. Поднял быстренько контейнер в Docker, но залип на том, что для работы контейнера необходим процесс. Поковырявшись немного, простого решения не нашел, и запустил сервер flask. Лошина.&lt;br /&gt;
+Сегодня случайно обнаружил, что, оказывается, я уже решал этот вопрос, и намного успешнее.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Docker и python shell</title>

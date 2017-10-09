@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nerpa.github.io/docker-for-the-shell/</loc>
+    <lastmod>2017-10-09T17:47:53+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nerpa.github.io/hugo-reinstall/</loc>
     <lastmod>2017-10-03T22:27:53+03:00</lastmod>
   </url>
@@ -44,7 +49,7 @@
   
   <url>
     <loc>https://nerpa.github.io/tags/docker/</loc>
-    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <lastmod>2017-10-09T17:47:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,13 +67,13 @@
   
   <url>
     <loc>https://nerpa.github.io/tags/python/</loc>
-    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <lastmod>2017-10-09T17:47:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nerpa.github.io/tags/</loc>
-    <lastmod>2017-10-03T21:27:53+03:00</lastmod>
+    <lastmod>2017-10-09T17:47:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,7 +91,7 @@
   
   <url>
     <loc>https://nerpa.github.io/</loc>
-    <lastmod>2017-10-03T22:27:53+03:00</lastmod>
+    <lastmod>2017-10-09T17:47:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -8,7 +8,7 @@
 
 
 
-<link rel="canonical" href="https://nerpa.github.io/exchange-greed/">
+<link rel="canonical" href="https://nerpa.github.io/docker-for-the-shell/">
 
 
 
@@ -16,21 +16,21 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://nerpa.github.io/css/styles.css" rel="stylesheet">
 
-    <title>Биржевая жадность - nERPa blog</title>
+    <title>Пустой процесс в docker-контейнере - nERPa blog</title>
     
-<meta property="og:title" content="Биржевая жадность - nERPa blog">
+<meta property="og:title" content="Пустой процесс в docker-контейнере - nERPa blog">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://nerpa.github.io/exchange-greed/">
+<meta property="og:url" content="https://nerpa.github.io/docker-for-the-shell/">
 <meta property="og:image" content="https://nerpa.github.io/images/default.png">
 <meta property="og:site_name" content="nERPa blog">
-<meta property="og:description" content="Возможно, в мире есть разумные правильные инвесторы. Баффет, например. Которые долго сидят, думают, оценивают. Годами. Или ждут подходящего момента (читай, низкой цены).Я не из таких! Вот минимум раз в год я чего-нибудь покупаю. Эдак импульсивно, почти без анализа и прочих условностей. ">
+<meta property="og:description" content="В прошлый раз мне была нужна среда с определенной версией python, которую я не хотел ставить на комп даже с virtualenv. Поднял быстренько контейнер в Docker, но залип на том, что для работы контейнера необходим процесс. Поковырявшись немного, простого решения не нашел, и запустил сервер flask. Лошина.Сегодня случайно обнаружил, что, оказывается, я уже решал этот вопрос, и намного успешнее. ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="nERPa blog">
-<meta name="twitter:url" content="https://nerpa.github.io/exchange-greed/">
-<meta name="twitter:title" content="Биржевая жадность - nERPa blog">
-<meta name="twitter:description" content="Возможно, в мире есть разумные правильные инвесторы. Баффет, например. Которые долго сидят, думают, оценивают. Годами. Или ждут подходящего момента (читай, низкой цены).Я не из таких! Вот минимум раз в год я чего-нибудь покупаю. Эдак импульсивно, почти без анализа и прочих условностей. ">
+<meta name="twitter:url" content="https://nerpa.github.io/docker-for-the-shell/">
+<meta name="twitter:title" content="Пустой процесс в docker-контейнере - nERPa blog">
+<meta name="twitter:description" content="В прошлый раз мне была нужна среда с определенной версией python, которую я не хотел ставить на комп даже с virtualenv. Поднял быстренько контейнер в Docker, но залип на том, что для работы контейнера необходим процесс. Поковырявшись немного, простого решения не нашел, и запустил сервер flask. Лошина.Сегодня случайно обнаружил, что, оказывается, я уже решал этот вопрос, и намного успешнее. ">
 <meta name="twitter:image" content="https://nerpa.github.io/images/default.png">
 
 
@@ -42,15 +42,15 @@
       "@type":"WebPage",
       "@id":"https://nerpa.github.io/"
     },
-    "headline": "Биржевая жадность - nERPa blog",
+    "headline": "Пустой процесс в docker-контейнере - nERPa blog",
     "image": {
       "@type": "ImageObject",
       "url": "https://nerpa.github.io/images/default.png",
       "height": 700,
       "width": 700
     },
-    "datePublished": "2017-04-05T21:27:53JST",
-    "dateModified": "2017-04-05T21:27:53JST",
+    "datePublished": "2017-10-09T17:47:53JST",
+    "dateModified": "2017-10-09T17:47:53JST",
     "author": {
       "@type": "Person",
       "name": "nERPa blog",
@@ -66,8 +66,8 @@
         "width": 60
       }
     },
-    "description": "Возможно, в мире есть разумные правильные инвесторы. Баффет, например. Которые долго сидят, думают, оценивают. Годами. Или ждут подходящего момента (читай, низкой цены).
-Я не из таких! Вот минимум раз в год я чего-нибудь покупаю. Эдак импульсивно, почти без анализа и прочих условностей. "
+    "description": "В прошлый раз мне была нужна среда с определенной версией python, которую я не хотел ставить на комп даже с virtualenv. Поднял быстренько контейнер в Docker, но залип на том, что для работы контейнера необходим процесс. Поковырявшись немного, простого решения не нашел, и запустил сервер flask. Лошина.
+Сегодня случайно обнаружил, что, оказывается, я уже решал этот вопрос, и намного успешнее. "
   }
 </script>
 
@@ -129,35 +129,36 @@
       <ol class="breadcrumb">
         <li><a href="https://nerpa.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
         
-        <li class="active">Биржевая жадность</li>
+        <li class="active">Пустой процесс в docker-контейнере</li>
       </ol>
     </nav>
 
     <article class="single">
   <header>
     <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-04-05T21:27:53JST">Apr 5, 2017</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-10-09T17:47:53JST">Oct 9, 2017</time></li>
       
       
     </ul>
 
-    <h1 class="title">Биржевая жадность</h1>
+    <h1 class="title">Пустой процесс в docker-контейнере</h1>
   </header>
 
   
 
-  <div class="article-body"><p>Возможно, в мире есть разумные правильные инвесторы. Баффет, например. Которые долго сидят, думают, оценивают. Годами. Или ждут подходящего момента (читай, низкой цены).<br />
-Я не из таких!
-Вот минимум раз в год я чего-нибудь покупаю. Эдак импульсивно, почти без анализа и прочих условностей.
+  <div class="article-body"><p>В <a href="/docker-python-shell/">прошлый раз</a> мне была нужна среда с определенной версией python, которую я не хотел ставить на комп даже с virtualenv. Поднял быстренько контейнер в Docker, но залип на том, что для работы контейнера необходим процесс. Поковырявшись немного, простого решения не нашел, и запустил сервер flask. Лошина.<br />
+Сегодня случайно обнаружил, что, оказывается, я уже решал этот вопрос, и намного успешнее.
 </p>
 
-<p>Чаще всего триггером выступает обещание дивидендов. За хорошие дивы я готов простить даже высокую цену. Мне почему-то всегда кажется, что уже пора хватать мешки - вокзал тронулся! Что интересно, я ни разу в таких покупках не ошибся стратегически. А вот слишком рано продавал (в том числе - в убыток) неоднократно. До сих пор вспоминаю нахапанный &ldquo;на все&rdquo; Сбербанк. По 55. Подождал-подождал с месяцок, а потом с руганью слил по 53. И что? Он практически тут же попер в небеса, и сейчас 125! Я реально мог озолотиться, но слошил&hellip;</p>
+<p>Всего-то и делов, что одна строка в Dockerfile:</p>
 
-<p>Вот надеюсь, что сейчас я в похожей ситуации: опять нашел на меня стих нахапать новых акций. они очень похожи по текущей ситуации, по всем обещаны неплохие дивы. Ну и по традиции все немедленно поползло вниз. Правда, очень недалеко и неустойчиво: то выше, то ниже. Короче, пока трудно сказать, был ли смысл&hellip; Вернее, так: ниже купить точно было можно. Но тут ведь не угадаешь&hellip;</p>
+<pre><code>CMD sleep infinity
+</code></pre>
 
-<p>Все эмитенты для меня новые: ни разу не покупал, тем более - вдолгую. Больше всего взял МосБиржи, поменьше-поровну - ЛСР и Алросу, и на сдачу Казанский ОргСинтез. Поболталось оно около минусов, но вот сегодня отстрелило все наверх, и изрядно. В минусе только Алроса осталась - но на нее дивы обещаны, я ее и ниже готов терпеть.</p>
+<p>И больше не нужно ничего. И ведь делал уже!<br />
+Как же плохо иногда иметь девичью память&hellip;</p>
 
-<p>Зафиксировал мысли - посмотрим, что сам буду про это думать через годик-другой :-)</p></div>
+<p>Что интересно: минут 20 беглого гуглинга меня в этот раз на такое решение не навели. Стал быть, упоминания этого трюка в сети в дефиците! Начинаем исправлять :-)</p></div>
 
   <footer class="article-footer">
     
@@ -170,7 +171,9 @@
       <div>
         <ul class="p-terms">
           
-          <li><a href="https://nerpa.github.io/tags/%D0%B1%D0%B8%D1%80%D0%B6%D0%B0/">биржа</a></li>
+          <li><a href="https://nerpa.github.io/tags/docker/">docker</a></li>
+          
+          <li><a href="https://nerpa.github.io/tags/python/">python</a></li>
           
         </ul>
       </div>
